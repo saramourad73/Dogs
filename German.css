@@ -1,0 +1,955 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers|Monoton|Reem+Kufi|Righteous|Spicy+Rice&display=swap');                
+
+body { direction:ltr; width:1510px; }
+/*  اللوجو */
+.logo {
+
+background: rgb(134, 130, 81);
+background: linear-gradient(51deg, rgb(123, 134, 81) 29%, rgb(53, 59, 11) 72%);
+color     :white;
+padding-bottom:30px;
+position:relative;
+direction:ltr;
+font-size :11px;
+letter-spacing:-1px;
+margin-right:16px;
+margin-left:16px;
+padding-right:1px;
+padding-top:10px;
+}
+/*  اللينك */	
+
+.ar, .aa
+{
+
+text-rendering: auto;
+color: buttontext;
+letter-spacing: normal;
+word-spacing: normal;
+text-transform: none;
+text-indent: 0px;
+text-shadow: none;
+text-align: center;
+cursor: pointer;
+font: 400 13.3333px; 
+float:right;
+margin-right:8px;
+text-decoration:none;
+padding-right:0px;
+color:black;
+}
+.aa:hover{
+direction:rtl;
+color:black;
+}
+
+
+a
+{
+direction:rtl;
+color:#799400;
+text-decoration: none;
+}
+
+
+a:hover
+{
+direction:rtl;
+color:#9bb014;
+
+
+}		
+a:active
+{
+direction:rtl;
+color:#d63031;
+
+
+}		 
+
+/*  اطار اللوجو */
+img[title="logo"]      {
+border-radius:none;
+padding:none;
+margin-left: none;
+margin-right:none;
+margin-bottom:none;
+max-width:none;
+opacity:none;
+border:none;
+
+}
+
+/*  اطار صورة كل كلب	   */
+img[title="photo"]{	
+
+border-radius:0px;
+padding:0px 0px 0px;
+margin-left: 10px;
+margin-right:10px;
+margin-bottom:10px;
+max-width:900px;
+opacity:0.9;
+text-align:left;
+border:3px solid black;
+}
+
+
+/*  اطار الصور المجمعة */
+img[title="p"]{	
+
+border-radius:0px;
+padding:-3px -3px -3px;
+margin-left:-3px;
+margin-right:-3px;
+margin-bottom:-3px;
+margin-top:-3px;
+opacity:0.9;
+
+} 
+
+
+img[title="bo"]{
+border-radius:20px;
+padding:-3px -3px -3px;
+margin-left:-3px;
+margin-right:-3px;
+margin-bottom:-3px;
+margin-top:-3px;
+opacity:0.9;
+border:9px solid black;
+
+} 	
+
+img[title="b"]{	
+
+border-radius:20px;
+padding:-3px -3px -3px;
+margin-left:-3px;
+margin-right:-3px;
+margin-bottom:-3px;
+margin-top:-3px;
+opacity:0.9;
+
+
+} 
+
+
+
+/*  اسم الكلب */
+
+
+.fo       {
+direction:ltr;
+font-size :40px;
+letter-spacing:normal;
+line-height:30px;
+font-family :"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+color:white;
+text-align:center;
+-webkit-column-span:all;
+column-span:all;
+margin-top:10px;
+} 
+
+
+.foo      {
+direction:ltr;
+font-size :32px;
+letter-spacing:normal;
+line-height:30px;
+font-family :"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+color:white;
+text-align:center;
+
+} 
+
+/*  عنوان الصفحة */
+
+.g      {
+direction:ltr;
+font-size :100px;
+letter-spacing:normal;
+line-height:30px;
+font-family: 'Bangers', cursive;
+background: -webkit-linear-gradient(51deg, rgba(153,247,255,1) 40%, rgba(50,229,229,1) 59%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;}
+
+/*  اسامي الكلاب ف النبذة */
+.go       {  
+color:#ff4757;
+direction:ltr;
+font-size :20px;   
+text-align:left;
+}
+
+/*  اللوجو اسفل الصفحة */
+.van	  {
+
+background:rgb(134, 130, 81);
+color     :white;
+padding-bottom:30px;
+position:relative;
+direction:ltr;
+font-size :20px;
+letter-spacing:-1px;
+margin-right:15px;
+margin-left:15px;
+padding-right:1px;
+padding-top: 3px;
+font-family: Arial, Tahoma;
+
+}
+.copy{float: left;
+padding-left: 30px;
+font-family: inherit;
+
+}
+
+
+.vn{          
+color     :black;
+text-align:right;
+margin-top:2px;margin-bottom:3px;
+font-size:11px;
+float:right;
+padding-top:-3px;
+padding-bottom:3px;
+
+}				
+
+
+/*  جسم الموضوع */
+.font, .fon{
+direction:ltr;
+font-size :25px;
+padding:5px;
+letter-spacing:normal;
+line-height:50px;
+text-align:left;
+font-family :Tahoma, Geneva, sans-serif;
+color:black;
+
+
+} 
+.fon{
+
+font-size :18px;
+
+
+} 
+
+
+
+
+
+
+/*  اطار كل موضوع  */
+.photo       {   
+text-align:left;
+border-radius:0px;
+padding:15px 14px 15px;
+margin-left: 15px;
+margin-right:15px;
+margin-bottom:1px;
+min-width:720px;
+min-height:550px;
+opacity:5;
+background-color:rgb(134, 130, 81);
+border:3px solid white;
+}
+
+.two{position: relative;}
+
+img[title="German shepherd"]
+{	
+
+border-radius:20px;
+padding:-3px -3px -3px;
+margin-left:-3px;
+margin-right:-3px;
+margin-bottom:-3px;
+margin-top:-3px;
+opacity:0.9;
+
+
+} 
+
+.lk{color: white;
+font-family: 'Righteous', cursive;
+font-size: 50px;
+
+
+
+}
+.two .hu{ position: absolute;
+bottom:300px;
+padding: 30px;
+padding-left: 870px;
+
+
+
+}
+.photo{ min-height:1000px;
+
+
+}
+.one		{      
+
+padding:15px 14px 15px;
+margin-left: 15px;
+margin-top: 3px;
+margin-right:1px;
+margin-bottom:1px;
+opacity:5;
+display:inline-block;
+width:700px;
+
+float:left;
+background-color:rgb(134, 130, 81); border:3px solid white;
+
+}
+ 
+.oe		{         
+text-align:left;
+border-radius:0px;
+padding:15px 14px 15px;
+margin-left: 1px; 
+ margin-top: 3px;
+margin-right:1px;
+margin-bottom:1px;
+opacity:5;
+border:3px solid ;
+display:inline-block;
+width:710px;
+max-height:500px;
+overflow:auto;
+background-color:rgb(134, 130, 81); border:3px solid white;
+
+
+}
+  
+.ul{   
+direction:ltr;
+font-size :25px;
+padding:5px;
+letter-spacing:normal;
+line-height:50px;
+text-align:left;
+font-family :Tahoma, Geneva, sans-serif;
+color:black;
+-webkit-column-count: 2;
+column-count: 2;
+
+}
+.ull{
+direction:ltr;
+font-size :25px;
+padding:5px;
+letter-spacing:normal;
+line-height:50px;
+text-align:left;
+font-family :Tahoma, Geneva, sans-serif;
+color:black;}
+
+
+
+
+.u{font-size:70px;
+color:white;
+}					 
+  
+
+.slide   {  
+width:700px;
+height:500px;
+overflow:hidden;
+
+
+}
+
+.slide ul {  
+list-style:none;
+width:4200px;
+padding:0px;
+position:relative;
+animation: sliding 15s ease-in-out infinite
+
+
+}
+.slide ul:hover          {  
+
+animation-play-state:paused;
+
+
+}
+.slide ul  li         {  
+float:left;
+position:relative;
+
+
+}
+@keyframes sliding  {
+0%{left:0}
+18%{left:-700px;}
+36%{left:-1400px;}
+54%{left:-2100px;}
+72%{left:-2800px;}
+90%{left:-3500px;}
+
+}
+   
+/*   اطار عام للصور المجمعة */
+.onee {
+border-top:3px solid black;
+border-left:3px solid black;
+}
+.to {
+border-top:3px solid black ;
+
+}
+.th {
+border-top:3px solid black;
+border-right:3px solid black;
+}
+.fou {
+border-bottom:3px solid black;
+border-left:3px solid black;
+}
+.fi {
+border-bottom:3px solid black ;
+
+
+}
+.si {
+border-bottom:3px solid black;
+border-right:3px solid black;
+
+}
+
+
+img[title="l"]{	
+text-align:center;
+} 
+
+
+table,td,tr,th{   border: 2px solid white;
+    padding:1px 0px 1px;
+    margin-left:1px;
+    margin-right:1px;
+    margin-bottom:1px; 
+    margin-top:10px;
+     width:1450px;
+     padding: 6px;
+     padding-left: -3px;
+ }
+
+table   { background:#ffffff;}
+td      {background:#e8ecef;}
+th      {background:rgb(134, 130, 81);
+background: linear-gradient(51deg, rgb(114, 134, 81) 29%, rgb(49, 59, 11) 72%);}
+
+
+
+
+
+.T{ direction:ltr;
+font-size :50px;
+padding:5px;
+letter-spacing:normal;
+line-height: 1.5em;
+text-align:left;
+color:#fafeff;
+font-family :Arial, Helvetica, sans-serif;} 
+
+.Ti{ direction:ltr;
+font-size :35px;
+font-weight: bold;
+padding:0px;
+letter-spacing:normal;
+line-height: 1.5em;
+text-align:left;
+color:black;
+font-family :"Lucida Sans Unicode", "Lucida Grande", sans-serif;}
+
+
+.it{ direction:ltr;
+font-size :50px;
+font-style: italic;
+font-weight: bold;
+padding:5px;
+letter-spacing:normal;
+line-height: 1.5em;
+text-align:center;
+color:black;
+font-family: "Courier New", Courier, monospace;
+} 
+
+
+.z{ direction:ltr;
+font-size :30px;
+font-style: italic;
+font-weight: bold;
+padding:5px;
+letter-spacing:normal;
+line-height: 1.5em;
+text-align:center;
+color:red;
+font-family: "Courier New", Courier, monospace;
+}
+
+
+.cap{direction:ltr;
+font-size :40px;
+font-weight: bold;
+padding:5px;
+letter-spacing:normal;
+line-height: 1.5em;
+text-align:center;
+color:red;
+font-family: "Courier New", Courier, monospace;}
+
+fieldset{
+
+
+border-radius:0px;
+
+margin-left: 15px;
+margin-right:15px;
+margin-bottom:10px;
+min-width:1440px;
+padding-right: 15px; 
+padding-left: 13px;
+position: relative;
+
+
+ }
+fieldset .home{ position: absolute;}
+fieldset .Next{ position: absolute;}
+
+
+
+.co{
+-webkit-column-count: 3;
+-moz-column-count: 3;
+column-count: 3;
+-webkit-column-gap:50px;
+-moz-column-gap:50px;
+column-gap:50px;
+border: 3px solid white;
+padding: 10px;
+margin-top: 10px;
+-webkit-column-rule:2px dashed white;
+-moz-column-rule:2px dashed white;
+column-rule:2px dashed white;
+
+}
+
+.colo{
+-webkit-column-count: 2;
+-moz-column-count: 2;
+column-count: 2;
+-webkit-column-gap:50px;
+-moz-column-gap:50px;
+
+column-gap:50px;
+-webkit-column-gap:50px;
+-moz-column-gap:50px;
+padding: 10px;
+margin-top: 10px;
+}
+
+
+
+
+.menu{
+background:rgb(134, 130, 81);
+background: linear-gradient(51deg, rgb(47, 59, 11) 25%, rgb(117, 134, 81) 49%);
+width: 97.89%;
+position: relative;
+height: 60px;
+margin-top: -18px;
+margin-right:16px;
+margin-left:16px;
+}
+
+
+.menu > ul{
+margin: 0;
+padding: 0;
+float: right;
+list-style-type: none;
+
+} 
+
+.menu > ul > li{
+
+float: right;
+
+
+} 
+
+
+
+
+.menu .logo{
+float:left; 
+
+}
+
+
+.men{
+display: inline-block;
+padding: 15px 40.6px;
+height: 30px;
+line-height: 30px;
+color: white;
+text-decoration: none;
+font-size: 18px;
+font-family: Tahoma;
+
+
+
+} 
+
+.men:focus{
+background-color:rgb(134, 130, 81);
+
+}   
+
+.menu ul li:hover .do{
+max-height: 400px;
+width: 280px;
+transition: max-height 1s  ease-in-out;
+-webkit-transition: max-height 1s  ease-in-out;
+-moz-transition: max-height 1s  ease-in-out;
+
+animation: swan 1s  ease-in-out;
+transform-origin: top;
+} 
+
+
+
+
+.men:hover{
+background:rgb(134, 130, 81);
+background: linear-gradient(51deg, rgb(51, 59, 11) 53%, rgb(122, 134, 81) 84%);
+color: white;
+
+
+
+}
+
+
+
+.do{
+position: absolute;
+top: 60px;
+overflow: hidden;
+background-color:#65714f;
+width: 280px;
+padding-right: 15px;
+max-height: 0;
+
+}  
+
+
+
+.do a{
+color: #fff;
+text-decoration: none;
+}
+
+.sub{
+
+padding: 0;
+
+}
+
+
+.sub ul{
+
+width: 100%;
+padding: 0;
+margin: 0;
+list-style-type: none;
+text-align: center;
+
+}
+
+
+.sub ul li a{
+
+display: inline-block;
+padding:10px 0px; 
+font-size: 18px;
+font-family: Tahoma;
+
+
+}
+
+.sub ul li:hover{
+background: rgb(134, 130, 81);
+background: linear-gradient(51deg, rgb(122, 134, 81) 29%, rgb(48, 59, 11) 72%);
+width: 300px;
+padding: 0;
+}
+
+
+@keyframes swan{
+
+0%{transform: rotateX(-50deg)}
+20%{transform: rotateX(50deg)}
+40%{transform: rotateX(-30deg)}
+60%{transform: rotateX(30deg)}
+80%{transform: rotateX(-30deg)}
+100%{transform: rotateX(0deg)}
+
+}   
+
+
+
+
+
+.home{
+
+background:rgb(134, 130, 81);
+background: linear-gradient(51deg, rgb(118, 134, 81) 29%, rgb(49, 59, 11) 72%);
+position: absolute;
+top:97%;
+left: 10%;
+transform: translate(-50%,-50%);
+color: white;
+font-family: 'Righteous', cursive;
+padding: 10px 30px;
+font-size: 25px;
+text-decoration: none;
+text-transform: uppercase;
+box-shadow: 0 20px 50px rgba(0,0,0,.5);
+overflow: hidden;
+
+}    
+
+
+.home:before{
+
+content: '';
+position: absolute;
+top:2px;
+left:2px;
+bottom: 2px;
+width: 50%;
+background: rgba(255,255,255,0.05);
+
+
+}   
+
+.home span:nth-child(1)
+{
+position: absolute;
+top: 0;
+left:0;
+width: 100%;
+height: 2px;
+background: linear-gradient(to right,rgb(42, 59, 11) 100%, rgb(114, 134, 81) 0%);
+
+animation: animate1 1S linear infinite;
+
+}
+
+@keyframes animate1{
+
+0%{transform: translateX(-100%);}
+
+100%{transform: translateX(100%);}
+
+
+
+}
+
+.home > span:nth-child(2)
+{
+position: absolute;
+top: 0;
+right:0;
+width: 2px;
+height:100%;
+background: linear-gradient(to bottom,rgb(44, 59, 11)100%, rgb(117, 134, 81) 0%);
+animation: animate2 1S linear infinite;
+animation-delay: 1s;
+
+}
+@keyframes animate2{
+
+0%{transform: translateY(-100%);}
+
+100%{transform: translateY(100%);}
+
+}
+
+.home span:nth-child(3)
+{
+position: absolute;
+bottom: 0;
+right:0;
+width:100%;
+height:2px;
+background: linear-gradient(to left,rgb(49, 59, 11) 100%, rgb(121, 134, 81) 0%);
+animation: animate3 1S linear infinite;
+
+
+}
+@keyframes animate3{
+
+0%{transform: translateX(100%);}
+
+100%{transform: translateX(-100%);}
+
+}
+.home span:nth-child(4)
+{
+position: absolute;
+top: 0;
+left:0;
+width: 2px;
+height:100%;
+background: linear-gradient(to top,rgb(47, 59, 11) 100%, rgb(124, 134, 81) 0%);
+animation: animate4 1S linear infinite;
+animation-delay: 1s;
+
+
+}
+
+@keyframes animate4{
+
+0%{transform: translateY(100%);}
+
+100%{transform: translateY(-100%);}
+
+}
+
+
+
+
+
+
+
+.Next:hover,.home:hover{color: white;}    
+
+.Next{
+
+background: rgb(134, 130, 81);
+background: linear-gradient(51deg, rgb(122, 134, 81) 29%, rgb(48, 59, 11) 72%);
+position: absolute;
+top:97%;
+left: 90%;
+transform: translate(-50%,-50%);
+color: white;
+font-family: 'Righteous', cursive;
+padding: 10px 30px;
+font-size: 25px;
+text-decoration: none;
+text-transform: uppercase;
+box-shadow: 0 20px 50px rgba(0,0,0,.5);
+overflow: hidden;
+
+}    
+
+
+.Next:before{
+
+content: '';
+position: absolute;
+top:2px;
+left:2px;
+bottom: 2px;
+width: 50%;
+background: rgba(255,255,255,0.05);
+
+
+}   
+
+.Next span:nth-child(1)
+{
+position: absolute;
+top: 0;
+left:0;
+width: 100%;
+height: 2px;
+background: linear-gradient(to right,rgb(51, 59, 11) 100%, rgb(117, 134, 81) 0%);
+
+animation: animate1 1S linear infinite;
+
+}
+
+@keyframes animate1{
+
+0%{transform: translateX(-100%);}
+
+100%{transform: translateX(100%);}
+
+
+
+}
+
+.Next span:nth-child(2)
+{
+position: absolute;
+top: 0;
+right:0;
+width: 2px;
+height:100%;
+background: linear-gradient(to bottom,rgb(41, 59, 11)100%, rgb(121, 134, 81) 0%);
+animation: animate2 1S linear infinite;
+animation-delay: 1s;
+
+}
+@keyframes animate2{
+
+0%{transform: translateY(-100%);}
+
+100%{transform: translateY(100%);}
+
+}
+
+.Next span:nth-child(3)
+{
+position: absolute;
+bottom: 0;
+right:0;
+width:100%;
+height:2px;
+background: linear-gradient(to left,rgb(43, 59, 11) 100%, rgb(123, 134, 81) 0%);
+animation: animate3 1S linear infinite;
+
+
+}
+@keyframes animate3{
+
+0%{transform: translateX(100%);}
+
+100%{transform: translateX(-100%);}
+
+}
+.Next span:nth-child(4)
+{
+position: absolute;
+top: 0;
+left:0;
+width: 2px;
+height:100%;
+background: linear-gradient(to top,rgb(44, 59, 11) 100%, rgb(121, 134, 81) 0%);
+animation: animate4 1S linear infinite;
+animation-delay: 1s;
+
+
+}
+
+@keyframes animate4{
+
+0%{transform: translateY(100%);}
+
+100%{transform: translateY(-100%);}
+
+}

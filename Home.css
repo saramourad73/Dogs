@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers|Monoton|Reem+Kufi|Righteous|Spicy+Rice&display=swap');                
+
+body { direction:ltr;width: 1510px;}
+/*  اللوجو */
+.logo {
+background:#A0522D;
+color     :white;
+padding-bottom:30px;
+position:relative;
+direction:ltr;
+font-size :11px;
+letter-spacing:-1px;
+margin-right:13px;
+margin-left:13px;
+padding-right:1px;
+padding-top:10px;
+}
+
+
+    /*  اللينك */	
+
+.ar, .aa {
+-webkit-writing-mode: horizontal-tb !important;
+text-rendering: auto;
+color: buttontext;
+letter-spacing: normal;
+word-spacing: normal;
+text-transform: none;
+text-indent: 0px;
+text-shadow: none;
+text-align: center;
+cursor: pointer;
+font: 400 13.3333px Arial;
+float:right;
+margin-right:8px;
+text-decoration:none;
+padding-right:0px;
+color:black;
+}
+
+
+.aa:hover  {
+direction:rtl;
+color:black;
+}
+
+
+a
+{
+direction:rtl;
+color:#0984e3;
+}
+
+
+a:hover  {
+direction:rtl;
+color:#009432;
+}
+
+
+a:active  {
+direction:rtl;
+color:#d63031;
+}
+
+
+
+/*  اطار اللوجو */
+
+img[title="logo"]      {
+border-radius:none;
+padding:none;
+margin-left: none;
+margin-right:none;
+margin-bottom:none;
+max-width:none;
+opacity:none;
+border:none;
+}
+
+
+
+
+           
+           /*  اطار صورة كل كلب	   */
+img[title="photo"]{	
+
+border-radius:0px;
+padding:0px 0px 0px;
+margin-left: 10px;
+margin-right:10px;
+margin-bottom:10px;
+max-width:900px;
+opacity:0.9;
+text-align:left;
+border:3px solid black;
+             }
+             
+             /*  اطار الصور المجمعة */
+img[title="p"]{	
+
+border-radius:0px;
+padding:-3px -3px -3px;
+margin-left:-3px;
+margin-right:-3px;
+margin-bottom:-3px;
+margin-top:-3px;
+opacity:0.9;
+} 
+             
+
+    
+          /*  اسم الكلب */
+    
+          
+.fo       {
+direction:ltr;
+font-size :32px;
+letter-spacing:normal;
+line-height:30px;
+font-family :"Comic Sans MS", cursive, sans-serif;
+color:red;
+text-align:center;
+} 
+          
+          /*  عنوان الصفحة */
+.g      {
+direction:ltr;
+font-size :72px;
+letter-spacing:normal;
+line-height:30px;
+font-family: 'Bangers', cursive;
+}
+   
+          
+          /*  اسامي الكلاب ف النبذة */
+.go       {
+color:#ff4757;
+direction:ltr;
+font-size :20px;   
+text-align:left;
+}
+             
+          /*  اللوجو اسفل الصفحة */
+
+             
+.van	  {
+
+background:#A0522D;
+color     :white;
+padding-bottom:30px;
+position:relative;
+direction:ltr;
+font-size :20px;
+letter-spacing:-1px;
+margin-right:16px;
+margin-left:16px;
+padding-right:1px;
+padding-top: 3px;
+font-family: Arial, Tahoma;
+max-height: 150px;
+
+}
+        
+.copy{
+float: left;
+padding-left: 30px;
+font-family: inherit;
+}
+             
+            
+				
+  
+
+         /*  جسم الموضوع */
+.font, .fon{
+direction:ltr;
+font-size :25px;
+padding:5px;
+letter-spacing:normal;
+line-height:50px;
+text-align:left;
+font-family :"Comic Sans MS", cursive, sans-serif;
+color:black;
+}
+            
+            
+            
+                      
+                      /*  اطار كل موضوع  */
+.photo,	.one, .two, .three,
+.four, .five, .six {   
+text-align:left;
+background: #FAEBD7;
+border-radius:0px;
+padding:15px 14px 15px;
+margin-left: 15px;
+margin-right:15px;
+margin-bottom:10px;
+min-width:720px;
+min-height:550px;
+opacity:5;
+border:3px solid ;
+}
+                          
+                      /*   اطار عام للصور المجمعة */
+.onee {
+border-top:3px solid black;
+border-left:3px solid black;
+}
+
+
+.to {
+border-top:3px solid black ;
+
+}
+
+
+.th {
+border-top:3px solid black;
+border-right:3px solid black;
+}
+
+
+.fou {
+border-bottom:3px solid black;
+border-left:3px solid black;
+}
+
+
+.fi {
+border-bottom:3px solid black ;
+}
+
+
+.si {
+border-bottom:3px solid black;
+border-right:3px solid black;
+}	
